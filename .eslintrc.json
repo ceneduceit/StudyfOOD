@@ -2,13 +2,11 @@
   "root": true,
   "parserOptions": {
     "ecmaVersion": 8,
-    "sourceType": "module",
-    "ecmaFeatures": {
+    "sourceType": "module"
       "jsx": true
     }
   },
   "plugins": ["react-hooks"],
-  "rules": {
     "react-hooks/rules-of-hooks": 2,
     "react-hooks/exhaustive-deps": 2
   }
